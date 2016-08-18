@@ -78,9 +78,13 @@ def result():
 
 
 if __name__ == '__main__':
-    '''Connects to the server'''
+    app.run(debug=True) 
 
-    HOST = '127.0.0.1'
-    PORT = 4000
-
-    app.run(HOST, PORT)
+#if __name__ == '__main__':
+#    '''Connects to the server'''
+#
+#    HOST = '127.0.0.1'
+#    PORT = 4000
+#
+#    app.run(HOST, PORT)
+Add Comment

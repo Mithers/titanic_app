@@ -27,7 +27,6 @@ PREDICTOR = RandomForestClassifier(n_estimators=100).fit(X, y)
 # Initialize the app
 app = flask.Flask(__name__)
 
-
 # When you navigate to the page 'server/predict', this will run
 # the predict() function on the parameters in the url.
 #
@@ -46,7 +45,6 @@ def predict():
     score = PREDICTOR.predict_proba(item)
     results = {'survival chances': score[0,1], 'death chances': score[0,0]}
     return flask.jsonify(results)
-
 
 
 #---------- CREATING AN API, METHOD 2 ----------------#
@@ -76,7 +74,6 @@ def result():
        results = {'survival chances': score[0,1], 'death chances': score[0,0]}
        return flask.jsonify(results)
 
-
 if __name__ == '__main__':
     app.run(debug=True) 
 
@@ -87,4 +84,3 @@ if __name__ == '__main__':
 #    PORT = 4000
 #
 #    app.run(HOST, PORT)
-Add Comment

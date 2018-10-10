@@ -52,7 +52,7 @@ prettytable==0.7.2
 psclient==2.0
 psycopg2==2.6.2
 py==1.4.31
-pyOpenSSL==0.15.1
+pyOpenSSL==17.5.0
 pyart==0.2.3
 pyasn1==0.1.9
 pyasn1-modules==0.0.8

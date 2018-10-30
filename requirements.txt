@@ -1,5 +1,5 @@
 Flask==0.12.3 
-GraphLab-Create==2.1
+GraphLab-Create==2.1 
 Jinja2==2.8
 Lifetimes==0.2.0.0
 MarkupSafe==0.23
@@ -66,7 +66,7 @@ python-mimeparse==0.1.4
 python-twitter==3.1
 pytz==2015.4
 rauth==0.7.2
-requests==2.10.0
+requests>=2.20.0
 requests-oauthlib==0.6.2
 scikit-learn==0.17.1
 scipy==0.16.0

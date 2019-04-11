@@ -1,6 +1,6 @@
 Flask==0.12.3 
 GraphLab-Create==2.1 
-Jinja2==2.8
+Jinja2>=2.8.1
 Lifetimes==0.2.0.0
 MarkupSafe==0.23
 Orange==2.7.8

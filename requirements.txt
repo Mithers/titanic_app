@@ -27,7 +27,7 @@ functools32==3.2.3-2
 future==0.15.2
 genson==0.1.0
 graphviz==0.4.10
-httplib2==0.9.2
+httplib2==0.19.0
 idna==2.0
 ipaddress==1.0.14
 iso8601==0.1.10
